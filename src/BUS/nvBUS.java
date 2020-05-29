@@ -24,7 +24,7 @@ public class nvBUS{
         if(dsnv==null) dsnv=new ArrayList<>();
         dsnv=nvDAO.getListNV();
     }
-    public static void ADD(NhanVien nv){
+    public static void them(NhanVien nv){
         nvDAO.them(nv);
         dsnv.add(nv);
     }
